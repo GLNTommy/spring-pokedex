@@ -19,13 +19,4 @@ public class ApipokeApplication {
 		return String.format("Hello World");
 	}
 
-	@GetMapping("/quielaer")
-	public String quielaer(){
-		return String.format("quielaer World");
-	}
-
-	@GetMapping("/vini")
-	public String vini(){
-		return String.format("vini bocó World");
-	}
 }
